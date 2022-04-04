@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+
+  margin: 0 auto;
+  max-width: 100vh;
+  /*background-image: url("https://wallpaperaccess.com/full/55672.jpg");*/
+  background-repeat: initial;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img1 {
+  width: 150px;
+  height: 100px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
+  padding: 10px;
+  width: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 50px;
+  box-shadow:
+    inset 0 -3em 3em rgb(255, 255, 255),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
 }
 
-.App-link {
-  color: #61dafb;
+.img2 {
+
+  padding: 20px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero1>h1 {
+  font-family: Lucida Bright;
+
+}
+
+.hero1>p {
+  font-variant-caps: all-petite-caps;
+  font-family: popins;
+
+}
+
+.img3 {
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  padding: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 10px;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ 
+
+
+}
+
+.card-main {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+ 
+}
+
+.card:hover {
+ border: 2px solid black;
+ background-color:gainsboro;
+ border-radius: 10px;
+  
+}
+.smallcard {
+  text-align: center;
+  position: absolute;
+  color: azure;
+  width: 100px;
+  top: 10px;
+  left: 0px;
+  border-radius: 10px;
+  background-color: black;
+
 }
